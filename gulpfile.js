@@ -25,7 +25,7 @@ gulp.task('bundle', () => {
    .pipe(gulp.dest('./.tmp'));
 });
 
-gulp.task('serve', ['live-server'], () => {
+gulp.task('serve', ['bundle', 'live-server'], () => {
     // null means we already have our server going
     browserSync.init(null, {
         proxy: 'http://localhost:7777',
