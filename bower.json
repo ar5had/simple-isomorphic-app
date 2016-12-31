@@ -1,0 +1,23 @@
+{
+  "name": "simple-isomorphic-app",
+  "description": "A demo isomorphic app for practice",
+  "main": "index.js",
+  "authors": [
+    "Arshad Khan (arshdkhn1@gmail.com)"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "isomorphic",
+    "node",
+    "express",
+    "javascript"
+  ],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
